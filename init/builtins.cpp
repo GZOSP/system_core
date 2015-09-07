@@ -70,6 +70,7 @@
 #include "util.h"
 
 using namespace std::literals::string_literals;
+using android::base::StringPrintf;
 
 using android::base::StringPrintf;
 
