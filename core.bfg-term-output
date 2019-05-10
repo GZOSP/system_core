@@ -6,44 +6,44 @@ premaca@CastleBlack:/shared/Android/GZPie/system$ java -jar /shared/Android/BFG/
 
 Using repo : /shared/Android/GZPie/system/core/.git
 
-Scanning packfile for large blobs: 135903
-Scanning packfile for large blobs completed in 845 ms.
+Scanning packfile for large blobs: 135997
+Scanning packfile for large blobs completed in 980 ms.
 Found 1 blob ids for large blobs - biggest=229696508 smallest=229696508
 Total size (unpacked)=229696508
-Found 1660 objects to protect
-Found 3 commit-pointing refs : HEAD, refs/remotes/gzosp/9.0, refs/remotes/m/9.0
+Found 1664 objects to protect
+Found 4 commit-pointing refs : HEAD, refs/remotes/gzosp-stg/9.0, refs/remotes/gzosp/9.0, refs/remotes/m/9.0
 
 Protected commits
 -----------------
 
 These are your protected commits, and so their contents will NOT be altered:
 
- * commit 42cf0718 (protected by 'HEAD')
+ * commit 9b295095 (protected by 'HEAD')
 
 Cleaning
 --------
 
-Found 41477 commits
-Cleaning commits:       100% (41477/41477)
-Cleaning commits completed in 2,364 ms.
+Found 41650 commits
+Cleaning commits:       100% (41650/41650)
+Cleaning commits completed in 2,426 ms.
 
 Updating 2 Refs
 ---------------
 
 	Ref                      Before     After
 	--------------------------------------------
-	HEAD                   | 42cf0718 | d4932613
-	refs/remotes/gzosp/9.0 | bc98806a | bfbc5adf
+	HEAD                   | 9b295095 | fe0745b5
+	refs/remotes/gzosp/9.0 | 0aec20e1 | 47768ba4
 
 Updating references:    100% (2/2)
-...Ref update completed in 22 ms.
+...Ref update completed in 19 ms.
 
 Commit Tree-Dirt History
 ------------------------
 
 	Earliest                                              Latest
 	|                                                          |
-	........................................................DDDD
+	........................................................DDDm
 
 	D = dirty commits (file tree fixed)
 	m = modified commits (commit message or parents changed)
@@ -62,9 +62,9 @@ Deleted files
 	libartd.so | 70352dbb (219.1 MB)
 
 
-In total, 1515 object ids were changed. Full details are logged here:
+In total, 1527 object ids were changed. Full details are logged here:
 
-	/shared/Android/GZPie/system/core.bfg-report/2019-02-10/15-37-04
+	/shared/Android/GZPie/system/core.bfg-report/2019-05-10/18-55-42
 
 BFG run is complete! When ready, run: git reflog expire --expire=now --all && git gc --prune=now --aggressive
 
@@ -72,7 +72,7 @@ BFG run is complete! When ready, run: git reflog expire --expire=now --all && gi
 --
 You can rewrite history in Git - don't let Trump do it for real!
 Trump's administration has lied consistently, to make people give up on ever
-being told the truth. Don't give up: https://www.rescue.org/topic/refugees-america
+being told the truth. Don't give up: https://www.aclu.org/
 --
 
 
