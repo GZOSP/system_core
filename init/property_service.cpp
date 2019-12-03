@@ -755,7 +755,9 @@ static const char *snet_prop_key[] = {
 	"ro.debuggable",
 	"ro.secure",
 	"ro.build.type",
+	"ro.build.keys",
 	"ro.build.tags",
+	"ro.system.build.tags",
 	"ro.build.selinux",
 	NULL
 };
@@ -771,6 +773,8 @@ static const char *snet_prop_value[] = {
 	"0",
 	"1",
 	"user",
+	"release-keys",
+	"release-keys",
 	"release-keys",
 	"1",
 	NULL
